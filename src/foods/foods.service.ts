@@ -65,7 +65,7 @@ export class FoodsService {
     await this.foodRepository.delete(id);
 
     return {
-      message: `Comida con el id ${id} eliminada`
+      message: `Comida con el id ${id} elimimnada exitosamente`
     };
   }
 }
